@@ -1,0 +1,12 @@
+# Interval is the time between repeating the schedule, 1 means every time step
+# The simulation starts at time 0
+layer_schedules: [
+            {start: 1, interval: 1},
+            {start: 1, interval: 1}
+        ]
+network_file: networks/layer1.txt_multi
+initial_rumor_count: 10
+stop.at: 100
+rumor_probability: 0.01
+counts_file: output/rumor_counts.csv
+seed: ~

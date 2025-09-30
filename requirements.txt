@@ -20,7 +20,6 @@ MarkupSafe==3.0.2
 matplotlib-inline==0.1.7
 mpi4py==4.0.2
 mpmath==1.3.0
--e git+https://github.com/KengLL/MultiRepast4py.git@009258495c430feccdb67756dfb943f8663a668c#egg=MultiRepast4py
 nest-asyncio==1.6.0
 networkx==3.2.1
 numba==0.60.0
